@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333333;
+    color:#575757;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('stationary.ong.jpg') no-repeat center cover/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: hsl(0, 0%, 34%);
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+    color: aqua;
+    font-size: 2em;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    color: rgb(250, 215, 215);
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.product-card .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border-radius: 0 0 5px 5px;
+}
+
+.product-card .btn:hover {
+    background-color: #575757;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
