@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.calc-body {
+    display: grid;
+    width: 275px;
+    background:blueviolet;
+    border: 10%;
+    margin: auto;
+    border:2px solid black;
+}
+.calc-screen {
+    padding:5px;
+    color:black;
+}
+.calc-operation {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.calc-typed {
+    font-size: 2rem;
+    text-align: right;
+    color:aqua;
+}
+.calc-button-row{
+    display:table;
+    color:white;
+}
+.calc-button-row button {
+    display:table-cell;
+    width: 25%;
+    height: 65px;
+    font-size: 1.3rem;
+    border: 20px;
+    color:black;
+    border-color:brown;
+    border-width: 1px 1px 0px 0;
+    border-style:solid;
+    border-radius: 50%;
+}
+.calc-button-row button:nth-child(1){
+    background-color:white;
+}
+.calc-button-row button:nth-child(2){
+    background-color:white;
+}
+.calc-button-row button:nth-child(3){
+    background-color:white;
+}
+.calc-button-row button:nth-child(4){
+    background-color:orange;
+}
+.calc-button-row button:nth-child(8){
+    background-color:orange;
+}
+.calc-button-row button:nth-child(12){
+    background-color:orange;
+}
+.calc-button-row button:nth-child(16){
+    background-color:orange;
+}
+.calc-button-row button:nth-child(20){
+    background-color:white;
+}
+.top-box{
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+input{
+    width:270px;
+    height:100px;
+    margin-bottom:10px;
+    text-align: right;
+    border: none;
+    font-size:xx-large;
+    border:2px solid black;
+}
+</style>
+<body>
+    <center><h1>CALCULATOR</h1></center>
+    <div class="calc-body">
+        <div class="calc-screen">
+        </div>
+        <div class="top-box"></div>
+        <div><input type="text"placeholder="0">
+        <div class="calc-button-row">
+            <button class="ac">AC</button>
+            <button class="opt">&#43;&#47;&#8722;</button>
+            <button class="opt">&#37;</button>
+            <button class="opt">&#247;</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="opt">&#215;</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="opt">&#8722;</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="opt">&#43;</button>
+            <button>0</button>
+            <button>.</button>
+            <button>&#9003</button>
+            <button class="opt">&#61;</button>
+        </div>
+        </div>
+</body>
+</html>
