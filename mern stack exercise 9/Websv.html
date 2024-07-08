@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .product-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .product-price {
+            color: red;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .product-discount {
+            text-decoration: line-through;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center><h1>Flipkart</h1></center>
+                <div class="product-card">
+                    <h5 class="product-title">Stationary things Pack</h5>
+                    <img src="stationary.ong.jpg">
+                    <p class="product-price">₹599.00 <span class="product-discount">₹2,499.00</span></p>
+                    <p class="text-muted">-76% off</p>
+                    <p>Free Delivery</p>
+                    <p>Delivery to : Coimbatore -641107 <span class="border border-success">Change</span></p>
+                    <p class="text-success">Super Quality</p>
+                   <div class="select">
+                       <label id="Quantity" for="Quality"></label>
+                       <div class="input-group mb-3">
+                           <select id="Quality" name="Quality" class="form-control form-select" aria-label="">
+                               <option>Quantity 1</option>
+                               <option>Quantity 2</option>
+                               <option> Quantity 3</option>
+                           </select>
+                       </div>
+                   </div>
+                   <h5>Highlights</h5>
+                   <ul>
+                    <li>Type:Stationery</li>
+                    <li>Set of 22</li>
+                    <li>Series: Unicorn Stationary set for both kids</li>
+                    <li>Color : Multicolor</li>
+                   </ul>
+                    <button class="btn btn-primary btn-block">Add to cart</button>
+                    <button class="btn btn-success btn-block">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
